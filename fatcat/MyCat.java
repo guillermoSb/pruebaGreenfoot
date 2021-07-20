@@ -14,14 +14,7 @@ public class MyCat extends Cat
     public void act()
     {
         // Cada uno de los comentarios
-        
-        // Dormir si el gato está cansado
-        if (isSleepy()) {
-            sleep(10);
-            shoutHooray();
-        } else {
-            shoutHooray();
-        }
+        sleep(2);   // Dormir un poco.
         // Bailar si el gato esta aburrido
         if (isBored()) {
             dance();
